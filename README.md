@@ -1,7 +1,8 @@
 # cookieredirect
 Repro for Cookie Redirect Issues with ASP.NET Core 2.0
+https://github.com/aspnet/Security/issues/1456
 
-## Sample Fiddler Traces in the file 3746_Full.txt
+## Sample Fiddler Traces in the file 3746_Full.txt 
 
 ## Repro Steps
 
