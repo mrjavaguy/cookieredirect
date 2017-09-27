@@ -1,0 +1,69 @@
+POST http://localhost:38370/auth/login HTTP/1.1
+Host: localhost:38370
+Connection: keep-alive
+Content-Length: 15
+Cache-Control: max-age=0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+
+jwt=Eric Holton
+HTTP/1.1 302 Found
+Date: Wed, 27 Sep 2017 21:51:27 GMT
+Server: Kestrel
+Content-Length: 0
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Location: /
+Set-Cookie: .AspNetCore.CustomCookie=CfDJ8CqZIXIN2pFOrIbEo8LK77y7LHArm-irZ-3kdeDKFqMubu0TpUWAF_nHZbTe8zeucZbWXVp7kJVJh2S6mobyusdK7fYTgaO5HZ27j3CKBDQ5GhKxkr_uby6guyZX-EiB9q8l5jTa9yC9b7ImOguA46x3ccxu8z-8tzhZ7nKd1fdAesttRPGYnqzA9kXtz4KDNVivnmftcJn8nfKLLZA5LVBT2mlK9aYxMZJlryIzknA72n1pe_5FUFQ7t6tA16_hTMu-e4nxHKh9QWTuQKcrOb_joxdqGWqUYDZBFQWC3CBl2qXVgP9ppXsg0sk0IpTHaspdIuekp_OOTC3ycXks3W4; path=/; samesite=lax; httponly
+
+
+
+------------------------------------------------------------------
+
+GET http://localhost:38370/ HTTP/1.1
+Host: localhost:38370
+Cache-Control: max-age=0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+
+
+HTTP/1.1 200 OK
+Date: Wed, 27 Sep 2017 21:51:30 GMT
+Content-Type: text/html; charset=utf-8
+Server: Kestrel
+Transfer-Encoding: chunked
+
+156
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>View</title>
+</head>
+<body>
+
+<div>
+    <h4>HomePageModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            UserName
+        </dt>
+        <dd>
+            &lt;Unknown&gt;
+        </dd>
+    </dl>
+</div>
+</body>
+</html>
+
+0
+
+
+
+------------------------------------------------------------------
+
