@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -32,7 +33,7 @@ namespace identity
                 options.DefaultAuthenticateScheme = AuthSchemes.CookieAuthName;
                 options.DefaultForbidScheme = AuthSchemes.CookieAuthName;
             })
-            .AddCookie(AuthSchemes.CookieAuthName);
+            .AddCookie(AuthSchemes.CookieAuthName, options => options.Cookie.SameSite = SameSiteMode.None );
 
             services.AddMvc();
         }
